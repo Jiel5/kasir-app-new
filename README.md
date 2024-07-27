@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # kasir-resto-app
 Aplikasi kasir restoran dengan menggunakan React.js dan API
 # Getting Started with Create React App
@@ -70,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# kasir-app-new
+>>>>>>> 4da7c74a2f45bcb27ee5cec4a7df050af3382e40
