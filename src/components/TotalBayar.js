@@ -20,7 +20,7 @@ class TotalBayar extends Component {
         }
 
         axios.post(API_URL + "pesanans", pesanan).then((res) => {
-            this.props.navigate('/sukses');
+            this.props.navigate('/sukses', { state: { nota: pesanan } });
         })
     };
 

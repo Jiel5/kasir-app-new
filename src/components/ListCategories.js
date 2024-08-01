@@ -42,7 +42,7 @@ export default class ListCategories extends Component {
         const { categories } = this.state;
         const { changeCategory, categoryYangDipilih } = this.props;
         return (
-            <Col md={2} className="mt-3">
+            <Col md={2}>
                 <h4>
                     <strong>Daftar Kategori</strong>
                 </h4>

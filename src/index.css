@@ -32,6 +32,42 @@ body {
   overflow: auto;
 }
 
+.nota-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nota-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.nota-table th,
+.nota-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.nota-table th {
+  background-color: #f2f2f2;
+}
+
+.nota-total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+
 @media only screen and (max-height: 1000px) {
   .hasil {
     height: 650px;
