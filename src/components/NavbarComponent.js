@@ -16,7 +16,7 @@ const NavbarComponent = () => {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/menuList">Product</Nav.Link>
                         <NavDropdown title="Transaksi" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#action3">Laporan</NavDropdown.Item>
+                            <NavDropdown.Item href="/laporan-transaksi">Laporan</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action5">
                                 Log Out

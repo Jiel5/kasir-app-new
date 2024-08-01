@@ -16,7 +16,8 @@ class TotalBayar extends Component {
     submitTotalBayar = (totalBayar) => {
         const pesanan = {
             total_bayar: totalBayar,
-            menus: this.props.keranjangs
+            menus: this.props.keranjangs,
+            date: new Date().toISOString() // Menambahkan tanggal saat ini
         }
 
         axios.post(API_URL + "pesanans", pesanan).then((res) => {
